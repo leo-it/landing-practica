@@ -5,44 +5,44 @@ export const GetPay = () => {
   return (
     <Box sx={{pt:"200px", pb:"50px"}}>
 
-    <Box sx={{ display: "relative", height: "100vh" }}>
-      <div>
+    <Box className="getpay" sx={{ display: "relative", height: "100vh" }}>
+      <Box>
         <Box sx={{}}>
-          <Box sx={{ position: "absolute", left: 120 }}>
+          <Box sx={{ position: "absolute", left:{xs:"-4%", md:120}, width:{xs:"300px", md:500}, height:{xs:"300px", md:450}}}>
             <img
               src="https://wickret.cuberto.com/assets/img/figure/1/3@2x.png"
               /* puntos */
               alt="icon"
-              width={500}
-              height={450}
+              width={"100%"}
+              height={"100%"}
             />
           </Box>
-          <Box sx={{ position: "absolute", left: 120 }}>
+          <Box sx={{ position: "absolute", left:{xs:"-4%", md:120}, width:{xs:"300px", md:500}, height:{xs:"300px", md:450}}}>
             <img
               src="https://wickret.cuberto.com/assets/img/figure/1/1@2x.png"
               /* nube */
               alt="icon"
-              width={500}
-              height={600}
+              width={"100%"}
+              height={"100%"}
             />
           </Box>{" "}
-          <Box sx={{ ml: 10, position: "absolute", left: 120 }}>
+          <Box sx={{ ml: 10, position: "absolute", left:{xs:"-4%", md:120}, width:{xs:"300px", md:500}, height:{xs:"300px", md:450}}}>
             <img
               /* tipito */
               src="https://wickret.cuberto.com/assets/img/figure/1/2@2x.png"
               alt="icon"
-              width={500}
-              height={500}
+              width={"100%"}
+              height={"100%"}
             />
           </Box>
         </Box>
-      </div>
+      </Box>
       <Box
         sx={{
           width: "300px",
           position: "absolute",
-          right: "300px",
-          mt: "100px",
+          right:{xs:"14%", md: "300px"},
+          mt:{xs:"400px", md:"100px"},
         }}
       >
         <Box sx={{ mb: 2 }}>

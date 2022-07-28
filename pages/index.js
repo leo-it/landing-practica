@@ -1,4 +1,3 @@
-import { Box } from "@mui/material";
 import { GetPay } from "../src/components/GetPay";
 import { Init } from "../src/components/Init";
 import { Navbar } from "../src/components/Navbar";
@@ -9,24 +8,23 @@ import { YourMoney } from "../src/components/YourMoney";
 export default function Home() {
   return (
     <>
-      <div className="cursor"></div>
-      <Navbar/>
+      <div className="cursor" id="cursor"></div>
+      <Navbar />
       <section>
-        <Init>Banking Reimagined</Init>
+        <Init/>
       </section>
       <section>
-         <TelephoneVideo/>
-      </section> 
-      <section>
-        <YourMoney/>
+        <TelephoneVideo />
       </section>
       <section>
-        <GetPay/>
+        <YourMoney />
       </section>
       <section>
-        <Services/>
+        <GetPay />
       </section>
-
+      <section>
+        <Services />
+      </section>
     </>
   );
 }

@@ -5,7 +5,7 @@ import { ItemsServices } from "../ItemsServices";
 
 export const Services = () => {
   return (
-    <Box sx={{ height: "200vh" }} className="services">
+    <Box sx={{ height: {xs:"1200px",md:"200vh"} }} className="services">
       <CustomerServices />
       <ItemsServices />
     </Box>

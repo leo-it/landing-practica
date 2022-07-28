@@ -5,7 +5,7 @@ export const CustomerServices = () => {
   return (
     <Box
     sx={{
-      height: "105vh",
+      height: {xs:"60vh",md:"105vh"},
       display: "flex",
       justifyContent: "center",
       mb: "40px",

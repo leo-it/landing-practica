@@ -12,9 +12,9 @@ export const TelephoneVideo = () => {
           <div className="phone__image"></div>
           <div className="phone__screen">
             <div className="phone__screen__video">
-              <iframe overflow="scroll" widt="290" height="500" muted  allow="autoplay" allowfullscreen src='https://wickret.cuberto.com/assets/video/hello.mp4' ></iframe>
-
-      <video autoPlay loop >
+{/*               <iframe overflow="scroll" widt="290" height="500"  allow="autoplay" allowFullScreen src='https://wickret.cuberto.com/assets/video/hello.mp4' ></iframe>
+ */}
+      <video className="video__size" autoPlay loop >
                  <source
                   src="https://wickret.cuberto.com/assets/video/hello.mp4"
                   type="video/mp4"
